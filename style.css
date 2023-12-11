@@ -127,3 +127,39 @@ main{
     margin-top: 30px;
     margin-bottom: 20px;
 }
+/* Resume section  */
+.resume{
+    padding: 100px 0px;
+}
+.resume__title{
+    margin-bottom: 80px ;
+}
+.resume_container{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 40px;
+}
+.education__title, .degree__title{
+    color:  #474747;
+    font-size: 30px;
+}
+.education__title{
+    margin-bottom: 30px;
+}
+.degree__title{
+    font-size: 25px;
+}
+.degree__institute, .degree__dec{
+    color: #757575;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+}
+.degree__dec{
+    font-size: 16px;
+}
+hr{
+   border: 1px solid #D1D1D1;
+}
+.education-btn{
+    text-align: center;
+}
