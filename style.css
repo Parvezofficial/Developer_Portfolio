@@ -1,0 +1,73 @@
+/* common styles  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+.primary-btn{
+    border: 0;
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 18px 36px;
+}
+ul li{
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+}
+/* header section */
+header{
+    background: #FFF8F3;
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+}
+.logo{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li a{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 170px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-sub-head{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner_head{
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-dec{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
