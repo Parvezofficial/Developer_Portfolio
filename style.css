@@ -107,6 +107,9 @@ main{
     display: flex;
     justify-content: space-around;
 }
+.what_do__dec{
+    margin-bottom: 50px;
+}
 .info-title, .info-dec{
     font-size: 20px;
     color: #757575;
