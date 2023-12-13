@@ -163,3 +163,32 @@ hr{
 .education-btn{
     text-align: center;
 }
+/* Footer section  */
+footer{
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer__container{
+    display: flex;
+    gap: 110px;
+}
+.footer__title, .footer__dec{
+    text-align: left;
+}
+.social__list{
+    display: flex;
+    gap: 24px;
+}
+.submit__form input[type='text'], input[type='email'], textarea{
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
+    margin-bottom: 24px;
+}
+input:focus-visible, textarea:focus-visible{
+    outline: none;
+
+}
+.contact-form__title{
+    margin-bottom: 28px;
+}
